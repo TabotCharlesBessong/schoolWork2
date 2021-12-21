@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -22,7 +20,7 @@ void bfs(vector<int> graph[], int start)
         cout << v << "  ";
         q.pop();
         // Enqueue all adjacent nodes of v and mark them visited
-        for (int i = graph[v].begin(); i != graph[v].end(); i++) {
+        for (auto i = graph[v].begin(); i != graph[v].end(); i++) {
             if (!visited[*i]) {
                 q.push(*i);
                 visited[*i] = true;
