@@ -5,6 +5,7 @@ using namespace std;
 
 #define V 5
 
+// this function add and create a new edge
 void addEdge(int graph[][V], int u, int v)
 {
     graph[u][v] = 1;
