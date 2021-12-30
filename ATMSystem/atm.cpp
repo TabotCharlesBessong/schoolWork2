@@ -36,10 +36,14 @@ int main (){
         double withdrawAmount ;
         // cout <<"Enter amount you wish to deposit"<<endl;
         cin>> withdrawAmount;
-        if(withdrawAmount < balance)
+        if(withdrawAmount < balance){
           balance -= withdrawAmount;break ;
-        else
+        }
+          
+        else{
           cout<<"Not enough fund";
+        }
+          
   }
 
   
