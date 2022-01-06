@@ -3,7 +3,7 @@
 const depthFirstValue = (root)=>{
 
   if(root === null) return []
-  
+
   const result = []
   const stack = [root] 
   while(stack.length > 0){
@@ -18,4 +18,4 @@ const depthFirstValue = (root)=>{
 
 module.exports = { 
   depthFirstValue
-}
+} 
