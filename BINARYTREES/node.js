@@ -53,7 +53,7 @@ const f = new Node('f')
 
 a.left = b
 a.right = c
-b.left = d
+b.left = d 
 b.right = e 
 c.left = f 
 
