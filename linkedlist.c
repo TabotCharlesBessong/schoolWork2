@@ -188,7 +188,7 @@ void insert_pos()
         scanf("%d",&temp->info) ;
   
         temp->next=NULL;
-        if(pos==0) 
+        if(pos==0)   
         {
                 // this permit us to change the link to respective nodes
                 temp->next=head;
