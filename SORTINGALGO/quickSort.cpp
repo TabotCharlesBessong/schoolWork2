@@ -27,8 +27,8 @@ void quickSortMin(int *B ,int start ,int end){
 
 
 
-void quickSortMax(int *B ,int start ,int end){
-	if(start > end){
+void quickSortMax(int *B ,int end ,int start){
+	if(start < end){
 		int pIndex = partition (B , end,start);
 		
 		quickSortMax(B , pIndex - 1 , start  );

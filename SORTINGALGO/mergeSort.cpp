@@ -71,7 +71,7 @@ void mergeSort(int array[], int const begin, int const end)
 void printArray(int A[], int size)
 {
 	for (int i = 0; i < size; i++)
-		cout << A[i] << " ";
+		cout << A[i] <<endl;
 }
 
 // Driver code
@@ -89,7 +89,4 @@ int main()
 	printArray(arr, arr_size);
 	return 0;
 }
-
-// This code is contributed by Mayank Tyagi
-// This code was revised by Joshua Estes
 
