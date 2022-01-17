@@ -27,14 +27,15 @@ void quickSortMin(int *B ,int start ,int end){
 
 
 
-//void quickSortMax(int *B ,int start ,int end){
-//	if(start < end){
-//		int pIndex = partition (B , start ,end);
-//		quickSortMax(B , start , pIndex - 1);
-//		quickSortMax(B , pIndex + 1, end);
-//	}
-//	
-//}
+void quickSortMax(int *B ,int start ,int end){
+	if(start > end){
+		int pIndex = partition (B , end,start);
+		
+		quickSortMax(B , pIndex - 1 , start  );
+		quickSortMax(B ,  end  ,pIndex + 1);
+	}
+	
+}
 
 int main(){
 	
@@ -46,11 +47,11 @@ int main(){
 	for (int i = 0 ;i< n ;i++)
 		cout<<B[i]<<"\n";
 		
-//	cout<<"\n"<<"This is for maximum for quick sort algo"<<"\n";
-//	cout<<"\n";
-//	quickSortMax(B,0,12);
-//	for (int i = 0 ;i< n ;i++)
-//		cout<<B[i]<<"\n";
+	cout<<"\n"<<"This is for maximum for quick sort algo"<<"\n";
+	cout<<"\n";
+	quickSortMax(B,0,12);
+	for (int i = 0 ;i< n ;i++)
+		cout<<B[i]<<"\n";
 	
 	return 0;
 }
