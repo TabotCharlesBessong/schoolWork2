@@ -114,6 +114,39 @@ void addition (struct node* head , struct node* head2){
   print(head3);
 }
 
+void multiply (struct node* head1 , struct node* head2){
+  struct node* ptr1 = head1;
+  struct node* ptr2 = head2;
+  struct node* head3 = NULL;
+  struct node* ptr3 = head3; 
+  if(head1 == NULL || head2 == NULL){
+    printf("The polynomials are empty");
+    return ; 
+  }
+  while(ptr1 != NULL){
+    while(ptr2 != NULL){
+      head3 = insert(head3, ptr1->coef * ptr2->coef , ptr1->expo * ptr2->expo);
+      ptr2 = ptr2->link;
+    }
+    ptr1 = ptr1->link ; 
+    ptr2 = head2 
+  }
+  struct node* temp = NULL;
+  while(ptr3->link != NULL){
+    if(ptr3->expo == ptr3->link->expo){
+      ptr3->coef = ptr3->expo + ptr3->link->expo; 
+      temp = ptr3->link;
+      ptr3->link = ptr3->link->link;
+      free(temp);
+      temp = NULL;
+    }else{
+      ptr3 = ptr3->link;
+      
+    }
+  }
+  print(head3)
+}
+
 int main (){
   // printf("Hello world");
   // first step declare a node in the main function 
@@ -131,7 +164,7 @@ int main (){
   head1 = create(head1);
   printf("Enter the second polynomial \n ");
   head2 = create(head2);
-
+  multiply(head1, head2);
   addition(head1, head2);
   return 0; 
 }
