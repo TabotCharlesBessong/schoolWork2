@@ -16,11 +16,12 @@ int gcd(int a , int b){
 }
 
 int main(){
-  int  a = 8; 
-  // cout<<"Enter the first number: "<<endl;
-  // cin >> a;
-  int b  = 3;
-  // cout<<"Enter the second number: "<<endl;
-  // cin >> b;
+  int a, b;
+  // int  a = 8; 
+  cout<<"Enter the first number: "<<endl;
+  cin >> a;
+  // int b  = 3;
+  cout<<"Enter the second number: "<<endl;
+  cin >> b;
   cout <<"The gcd of %d "<< a <<" and  %d "<< b<< " is " << gcd(a,b)<<endl;
 }
