@@ -52,11 +52,14 @@ void valid_paren (string input)
  }
 }
 int main() {
- string input1 = "{{}}()[()]";
- string input2 = "{][}";
- string input3 = ")";
+ string input1 ;
+ cout<<"Enter valid parenthesis"<<endl;
+ cin>>input1;
+ string input2 ;
+ cout<<"Enter invalid parenthesis"<<endl;
+ cin>>input2;
  valid_paren(input1);
  valid_paren(input2);
- valid_paren(input3);
+//  valid_paren(input3);
  return 0;
 }
