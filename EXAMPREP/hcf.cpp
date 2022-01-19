@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  int n1, n2, hcf;
+  int n1, n2, hcf,lcm;
   cout << "Enter two numbers: ";
   cin >> n1 >> n2;
   // int n1 = 15, n2 = 35, hcf;
@@ -22,7 +22,8 @@ int main() {
     }
   }
 
-  cout << "HCF = " << hcf;
-
+  lcm = (n1 * n2) / hcf ; 
+  cout << "HCF = " << hcf<<endl;
+  cout << "LCM = " << lcm<<endl;
   return 0;
 }
