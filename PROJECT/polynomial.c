@@ -129,7 +129,7 @@ void multiply (struct node* head1 , struct node* head2){
       ptr2 = ptr2->link;
     }
     ptr1 = ptr1->link ; 
-    ptr2 = head2 
+    ptr2 = head2 ;
   }
   struct node* temp = NULL;
   while(ptr3->link != NULL){
@@ -144,7 +144,7 @@ void multiply (struct node* head1 , struct node* head2){
       
     }
   }
-  print(head3)
+  print(head3);
 }
 
 int main (){
