@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F887 -DL -O11111114 -fo8 -N"D:\School docs\micro lab\glcdpic\Glcd.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\School docs\micro lab\glcdpic\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "Glcd.c" "NewUnit_0.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	Glcd.c
+hint: 70	1163	Variable 'ii' has been declared, but not used	Glcd.c
+hint: 71	1163	Variable 'someText' has been declared, but not used	Glcd.c
+diagnostics: 96	123	Compiled Successfully	Glcd.c
+diagnostics: 0	122	Compilation Started	NewUnit_0.c
+diagnostics: 0	123	Compiled Successfully	NewUnit_0.c
+diagnostics: 0	127	All files Compiled in 172 ms	 
+hint: 0	1144	Used RAM (bytes): 10 (3%)  Free RAM (bytes): 342 (97%)	Used RAM (bytes): 10 (3%)  Free RAM (bytes): 342 (97%)
+hint: 0	1144	Used ROM (program words): 5432 (66%)  Free ROM (program words): 2760 (34%)	Used ROM (program words): 5432 (66%)  Free ROM (program words): 2760 (34%)
+diagnostics: 0	125	Project Linked Successfully	Glcd.mcppi
+diagnostics: 0	128	Linked in 141 ms	 
+diagnostics: 0	129	Project 'Glcd.mcppi' completed: 360 ms	 
+diagnostics: 0	103	Finished successfully: 17 May 2022, 10:24:16	Glcd.mcppi

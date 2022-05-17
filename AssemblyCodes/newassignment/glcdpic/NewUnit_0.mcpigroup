@@ -1,0 +1,8 @@
+[PROJECTS]
+Count=4
+Project0=..\piccounter\piccounter.mcppi
+Project1=..\ABCDE\ABCDE.mcppi
+Project2=..\glcd\Glcd.mcppi
+Project3=Glcd.mcppi
+[ActiveProject]
+Index=3

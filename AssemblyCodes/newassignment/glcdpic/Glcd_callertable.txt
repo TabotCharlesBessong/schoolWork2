@@ -1,0 +1,24 @@
+main
+	Glcd_Init
+		Strobe
+			Delay_10us
+	Glcd_Fill
+		Glcd_Set_Page
+			Strobe
+				Delay_10us
+		Glcd_Write_Data
+			Strobe
+				Delay_10us
+	Glcd_Image
+		Glcd_Set_Side
+		Glcd_Set_Page
+			Strobe
+				Delay_10us
+		Glcd_Set_X
+			Strobe
+				Delay_10us
+		____DoICP
+		Glcd_Write_Data
+			Strobe
+				Delay_10us
+	delay2S

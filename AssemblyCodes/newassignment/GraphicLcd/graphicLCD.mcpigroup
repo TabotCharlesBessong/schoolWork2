@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=..\300 second semester\class exercise\class exercise\Push_Button_Led.mcppi
+Project1=..\300 second semester\class exercise\class exercise\graphicLCD.mcppi
+[ActiveProject]
+Index=1
