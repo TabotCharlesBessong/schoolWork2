@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F84A -DL -O11111114 -fo8 -N"C:\Users\CHARLES\Documents\ALGORITHMNOTES\AssemblyCodes\newassignment\new\new.mcppi" -SP"G:\DISK C DOCUMENT\mikroC PRO for PIC\Defs\" -SP"G:\DISK C DOCUMENT\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\CHARLES\Documents\ALGORITHMNOTES\AssemblyCodes\newassignment\new\" -IP"G:\DISK C DOCUMENT\mikroC PRO for PIC\Uses\P16\" "_new.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 52 [bytes], Available ROM: 1024 [bytes]	 
+diagnostics: 0	122	Compilation Started	_new.c
+diagnostics: 15	123	Compiled Successfully	_new.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+hint: 0	1144	Used RAM (bytes): 22 (42%)  Free RAM (bytes): 30 (58%)	Used RAM (bytes): 22 (42%)  Free RAM (bytes): 30 (58%)
+hint: 0	1144	Used ROM (program words): 88 (9%)  Free ROM (program words): 936 (91%)	Used ROM (program words): 88 (9%)  Free ROM (program words): 936 (91%)
+diagnostics: 0	125	Project Linked Successfully	new.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'new.mcppi' completed: 125 ms	 
+diagnostics: 0	103	Finished successfully: 17 May 2022, 12:33:21	new.mcppi

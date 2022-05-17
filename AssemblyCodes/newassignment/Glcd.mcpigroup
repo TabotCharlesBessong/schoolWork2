@@ -1,6 +1,7 @@
 [PROJECTS]
-Count=2
+Count=3
 Project0=lcddisplay.mcppi
 Project1=..\..\..\..\Downloads\assignment\micro c\Marshal.mcppi
+Project2=..\..\..\..\Downloads\assignment\micro c\MyProject.mcppi
 [ActiveProject]
-Index=1
+Index=2
