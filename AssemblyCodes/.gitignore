@@ -3,7 +3,7 @@
 *.pdsprj
 *.dct
 *.xxx_did
-*sys_id.drop
+*.drop
 *.c.ini
 *.cp
 *.ini
