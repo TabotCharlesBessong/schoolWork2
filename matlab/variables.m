@@ -13,4 +13,9 @@ intmin('int16')
 intmax('int8')
 realmax('single')
 
-v1 =  1 +  2 + 3 + 4 + 5 ... + 20
+v2 = 8
+class(v2)
+v3 = int8(v2)
+class(v3)
+v4 = double('A')
+v5 = char(64)
