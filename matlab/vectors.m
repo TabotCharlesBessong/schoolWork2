@@ -14,7 +14,7 @@ vt4(1) = 0
 vt3(11) = 33
 vt4(1:3)
 vt4([2 4 6])
-n
+
 vc1 = [2;3;4;5]
 vt5 = [1 2 3 4 ]
 
@@ -23,4 +23,8 @@ v1 = vc1 * vt5
 % Dot product
 %vtDot = vt1 * vt5'
 vtDot2 = dot(vt1,vt5)
+%vtCross = cross(vc1, vt5)
+
+vt8 = linspace(1,20,4)
+vt9 = logspace(1,3,3)
 
