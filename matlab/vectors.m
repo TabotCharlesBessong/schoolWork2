@@ -21,7 +21,7 @@ vt5 = [1 2 3 4 ]
 v1 = vc1 * vt5
 
 % Dot product
-%vtDot = vt1 * vt5'
+vtDot = vt1 .* vt5'
 vtDot2 = dot(vt1,vt5)
 %vtCross = cross(vc1, vt5)
 
